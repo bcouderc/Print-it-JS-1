@@ -29,7 +29,7 @@ time, mark, audio, video {
 	border: 0;
 	font: inherit;
 	font-size: 100%;
-	vertical-align: baseline;
+	display: inline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -54,7 +54,7 @@ table {
 	border-spacing: 0;
 }
 body {
-
+	margin: 0;
 }
 section {
 	margin-block: 6em;
@@ -124,12 +124,14 @@ header {
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
 #banner .arrow {
+	width: 100%;
 	position: absolute;
 }
 #banner .arrow_left {
 	left: 10px;
 }
 #banner .arrow_right {
+	position: inherit;
 	right: 10px;
 }
 /* Gestion des points du carrousel */
