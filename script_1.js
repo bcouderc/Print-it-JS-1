@@ -16,6 +16,24 @@ const slides = [
         "tagLine": "Autocollants <span>avec découpe laser sur mesure</span>"
     }
 ];
+
+// ajout des flèches de navigation
+const arrow = document.getElementById('banner');
+    let arrowDiv = document.createElement('div');
+        arrowDiv.classList.add('arrow');
+
+    const imgArrowLeft = document.createElement('img');
+        imgArrowLeft.setAttribute('src', './assets/images/arrow_left.png');
+        imgArrowLeft.classList.add('arrow_left');
+        arrowDiv.appendChild(imgArrowLeft);
+
+    const imgArrowRight = document.createElement('img');
+        imgArrowRight.setAttribute('src', './assets/images/arrow_right.png');
+        imgArrowRight.classList.add('arrow_right');
+        arrowDiv.appendChild(imgArrowRight);
+
+    arrow.appendChild(arrowDiv)
+
 // ajout des dots dans le code HTML
 
 const newDot = document.querySelector('.dots');
