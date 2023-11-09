@@ -59,7 +59,7 @@ const dots = document.querySelectorAll('.dot');
 let currentIndex = 0;
 
 function updateSlide() {
-	bannerImg.src = `/assets/images/slideshow/${slides[currentIndex].image}`;
+	bannerImg.src = `./assets/images/slideshow/${slides[currentIndex].image}`;
     bannerImg.alt = `Slide ${currentIndex + 1}`;
 
     // Mettre à jour le texte
