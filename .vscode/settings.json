@@ -1,0 +1,42 @@
+{
+    "window.zoomLevel": 0,
+    "explorer.compactFolders": false, // Affiche les dossiers en cascade
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.fontFamily": "Aptos (corp)",
+    "files.autoSave": "onFocusChange", // Sauvegarde auto à chaque changement de fenêtre ou de focus au niveau de l'éditeur
+    "files.defaultLanguage": "html", // Définit par défaut le language du nouveau document créé
+    "workbench.tree.indent": 15, // Permet définir l'indentation des fichiers
+    "workbench.tree.renderIndentGuides": "always",
+    "emmet.triggerExpansionOnTab": true,
+
+    // Modification de GitHub
+    "git.confirmSync": false, // Désactive la boite de confirmation de synchronisation de GIT
+    "git.enableSmartCommit": true, // Permet de ne pas activer les changements ds Git. Clic sur validation permet de push tous les changements
+
+    // Thème
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "editor.selectionBackground":#3D59A1,
+            "editor.selectionHighlightBackground":#3D59A1,
+        }
+    },
+    
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css",
+            "savePathReplacementPairs": null
+        }
+    ]
+}

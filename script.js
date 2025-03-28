@@ -229,12 +229,13 @@ function nextSlide() {
                 Une fois que l'indice a été mis à jour, cette ligne appelle la fonction updateSlide pour mettre à jour l'affichage du carrousel en affichant la nouvelle diapositive correspondant au nouvel indice.
                 La fonction nextSlide incrémente l'indice de la diapositive actuelle pour passer à la diapositive suivante et met à jour l'affichage du carrousel en appelant la fonction updateSlide. Cela permet de faire défiler les diapositives vers l'avant lorsque l'utilisateur clique sur la flèche "Next".
 
-        nextArrow.addEventListener('click', nextSlide);
-        prevArrow.addEventListener('click', prevSlide);
+            nextArrow.addEventListener('click', nextSlide);
+            prevArrow.addEventListener('click', prevSlide);
 
         Cette ligne de code utilise un événement pour détecter le clic sur un élément HTML identifié par la variable nextArrow et associe cette action à la fonction nextSlide.
         nextArrow : Fait référence à l’élément HTML qui représente une flèche permettant de passer à la diapositive suivante. .addEventListener('click', nextSlide) : Cela attache un écouteur d'événement au bouton représenté par nextArrow. 
-                'click' : C'est le type d'événement auquel l'écouteur réagit. Dans ce cas, il s'agit d'un événement de clic de souris.              nextSlide : C'est la fonction qui sera exécutée lorsque l'événement spécifié (clic) se produit sur l'élément nextArrow.
+                'click' : C'est le type d'événement auquel l'écouteur réagit. Dans ce cas, il s'agit d'un événement de clic de souris.             
+                 nextSlide : C'est la fonction qui sera exécutée lorsque l'événement spécifié (clic) se produit sur l'élément nextArrow.
         Cette ligne de code établit une connexion entre le clic de souris sur l'élément représenté par nextArrow et l'exécution de la fonction nextSlide. Cela est souvent utilisé dans les interfaces utilisateur pour permettre à l'utilisateur de déclencher une action, comme passer à la diapositive suivante dans un carrousel, en cliquant sur une flèche ou un bouton.
 
 */
